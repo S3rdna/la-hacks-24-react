@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import './App.css'
+import '../App.css'
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 
 const libraries = ['places'];

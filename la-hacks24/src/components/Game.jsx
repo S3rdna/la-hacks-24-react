@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import './App.css'
+import '../App.css'
 import './Game.css'
+import GoogleMaps from './GoogleMaps.jsx'
 
 function Game() {
     const [count, setCount] = useState(0)

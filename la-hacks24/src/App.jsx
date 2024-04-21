@@ -20,7 +20,7 @@ function App() {
 
       {state === 1 && <>
       <h1>App</h1>
-      <div className="card">
+      <div>
       <button onClick={() => setState(2)}>Quiz
         </button>
         <button onClick={() => setState(3)}>Game
@@ -30,7 +30,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      <p>
         Click on the Vite and React logos to learn more
       </p>
       </>}
