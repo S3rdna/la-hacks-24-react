@@ -12,15 +12,28 @@ import fs from 'fs'; // For file system operations (Node.js)
 
 function Quiz() {
     const [sliderValue, setSliderValue] = useState(0);
+    const [questionNum, setquestionNum] = useState(1) // react hook
+    const [quizJSON, setquizJSON] = useState(null)
 
-    const handleSliderChange = (event, newValue) => {
-        setSliderValue(newValue);
+    const handleJSONchange = (keyName, newValue) => {
+        console.log("inside func")
+
+        if (quizJSON == null) {
+            let j = { [keyName]: newValue }; // Use computed property syntax to set the key dynamically
+            setquizJSON(JSON.stringify(j));
+        } else {
+            newvar = JSON.parse(quizJSON);
+            newvar[keyName] = newValue;
+            console.log(newvar)
+
+        }
+           
     };
 
-    const handleButtonClick = () => {
-        // Update JSON file
-        updateJSONFile(sliderValue);
-    };
+    // const handleButtonClick = () => {
+    //     // Update JSON file
+    //     updateJSONFile(sliderValue);
+    // };
     // Function to update JSON file
     const updateJSONFile = (newValue) => {
 
@@ -47,14 +60,22 @@ function Quiz() {
 
     return (
         <>
+        {
+        questionNum === 1 &&
+        <>
         <ButtonAppBar />
         {/* This is p */}
         <AITextField />
-        <DiscreteSlider value={sliderValue} onChange={handleSliderChange} />
+        <DiscreteSlider value={sliderValue} onChange={(event, sliderValue) => handleJSONchange("spiceLevel", sliderValue)} />
          {/* Pass handleButtonClick function to the SubmitBt component */}
-         <SubmitBt onClick={handleButtonClick} />
+         <SubmitBt onClick={() => setquestionNum(questionNum+1)} />
+         </>
         
+        }
         </>
+
+        // next question
+
     )
 }
 
