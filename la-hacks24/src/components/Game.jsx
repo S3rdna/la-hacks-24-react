@@ -1,6 +1,7 @@
-
 import { useState } from 'react'
 import '../App.css'
+import './Game.css'
+import GoogleMaps from './GoogleMaps.jsx'
 
 function Game() {
     const [count, setCount] = useState(0)
@@ -10,6 +11,13 @@ function Game() {
     return (
         <>
             <h2>Game</h2>
+            <div id="aiBox">
+                <h3>AI area</h3>
+                <p>🐢: Welcome!</p>
+                <p>🐢: Click around near your neighborhood to discovered new challenges!</p>
+            </div>
+
+            <GoogleMaps />
 
         </>
     )
