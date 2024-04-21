@@ -63,7 +63,10 @@ function GoogleMaps() {
     const [restaurants, setRestaurants] = useState([]);
     const [currentPosition, setCurrentPosition] = useState(null);
     const [loading, setLoading] = useState(true);
+    const [userMarker, showUserMarker] = useState(false);
 
+
+    
     const { isLoaded, loadError } = useLoadScript({
         googleMapsApiKey: 'AIzaSyAeG3P6Emr77_rBXL9A6mJuYkYHVbOCRXs',
         libraries,
@@ -134,6 +137,10 @@ function GoogleMaps() {
         return <div>Loading maps...</div>;
     }
 
+    
+
+    
+
     return (
         <>
             <div>
@@ -145,13 +152,16 @@ function GoogleMaps() {
                         options={{ minZoom: minZoomLevel, maxZoom: maxZoomLevel, mapTypeId: 'satellite' }}
                         mapId='retro'
                     >
-                        <Marker 
+
+                      
+                        {showUserMarker && <Marker 
                             position={currentPosition}
                             icon={{
                                 url: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png', // Change pin color here
-                                scaledSize: new window.google.maps.Size(40, 40), // Adjust pin size if needed
+                                scaledSize: new window.google.maps.Size(100, 100), // Adjust pin size if needed
                             }}
-                        />
+                        />}
+                        
                         {restaurants.map((restaurant, index) => (
                             <Marker 
                                 key={index} 
