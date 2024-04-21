@@ -26,11 +26,13 @@ app.post('/api/login', (req, res) => {
 
 app.post('/api/quizdata', (req, res) => {
 
-    const { spicy, fishy, allergies, cuisineType } = req.body;
+    console.log(req.body)
     // Here you would typically check the credentials against a database
-    res.json({ success: true, message: 'Login successful!', values: { spicy, fishy, allergies, cuisineType } });
+    res.json({ success: true, message: 'successful!', values: req.body })
+})
 
-});
+
+
 
 // Start the server
 app.listen(PORT, () => {
