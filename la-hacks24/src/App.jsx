@@ -1,21 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-import Game from './Game.jsx'
-import Quiz from './Quiz.jsx'
+import Game from './components/Game.jsx'
+import Quiz from './components/Quiz.jsx'
 
 function App() {
-  // 1 - home
-  // 2 - quiz
-  // 3 - game
-  const [state, setState] = useState(1) // react hook
- 
+
+    // 1 - home
+    // 2 - quiz
+    // 3 - game
+    const [state, setState] = useState(1) // react hook
+
+    return (
 
 
-  return (
-    
+        
 
     <>
 
@@ -42,8 +41,9 @@ function App() {
       
 
 
-    </>
-  )
+        </>
+    )
+
 }
 
 export default App
