@@ -47,6 +47,11 @@ convo = model.start_chat(history=[
 def send_message(string):
     convo.send_message(string)  # prompt
     print(convo.last.text)  # responsse
+    # write the solutions onto a text file
+    filename = "solutions.txt"
+    solutions = open(filename, 'w');
+    for line in convo.last.text:
+        solutions.write(line)
     return convo.last.text
 
 message = "Based on the following data, recommend to the user some restaurants."
@@ -54,7 +59,7 @@ file = open("recommendations.json", 'r')
 for line in file:
     message += line
 
-message += "According to the user, the following are the user's preferences for food. Based on this, recommend some restaurants"
+message += "According to the user, the following are the user's preferences for food. Based on this, generate a list of restaurants (no food trucks) on each line with no words before it."
 quiz = open("quiz_sample.txt", 'r')
 for line in quiz:
     message += line

@@ -303,56 +303,57 @@
             }
         },
         {
-            "id": "AWQELVqEeeCbstdp8PUVYg",
-            "alias": "the-ppong-los-angeles-2",
-            "name": "The Ppong",
-            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Li5i5N_Y7VwLTsJvLA2pKw/o.jpg",
+            "id": "42457QM4W5bfhLhkNFgFdA",
+            "alias": "arado-japanese-restaurant-los-angeles",
+            "name": "Arado Japanese Restaurant",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/LVj0Evg-O3khsuh62ImpqA/o.jpg",
             "is_closed": false,
-            "url": "https://www.yelp.com/biz/the-ppong-los-angeles-2?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 265,
+            "url": "https://www.yelp.com/biz/arado-japanese-restaurant-los-angeles?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 255,
             "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                },
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                },
                 {
                     "alias": "korean",
                     "title": "Korean"
-                },
-                {
-                    "alias": "chinese",
-                    "title": "Chinese"
-                },
-                {
-                    "alias": "soup",
-                    "title": "Soup"
                 }
             ],
-            "rating": 4.2,
+            "rating": 3.6,
             "coordinates": {
-                "latitude": 34.062044,
-                "longitude": -118.3146891
+                "latitude": 34.0619,
+                "longitude": -118.31433
             },
             "transactions": [
-                "delivery",
-                "pickup"
+                "pickup",
+                "delivery"
             ],
             "price": "$$",
             "location": {
-                "address1": "4003 Wilshire Blvd",
-                "address2": null,
+                "address1": "4001 Wilshire Blvd",
+                "address2": "Ste A",
                 "address3": "",
                 "city": "Los Angeles",
                 "zip_code": "90010",
                 "country": "US",
                 "state": "CA",
                 "display_address": [
-                    "4003 Wilshire Blvd",
+                    "4001 Wilshire Blvd",
+                    "Ste A",
                     "Los Angeles, CA 90010"
                 ]
             },
-            "phone": "+12135683953",
-            "display_phone": "(213) 568-3953",
-            "distance": 618.4737503662548,
+            "phone": "+12133871199",
+            "display_phone": "(213) 387-1199",
+            "distance": 655.2668075067963,
             "attributes": {
                 "business_temp_closed": null,
-                "menu_url": null,
+                "menu_url": "https://www.aradosushi.com/copy-of-decor",
                 "open24_hours": null,
                 "waitlist_reservation": null
             }
@@ -450,6 +451,62 @@
             }
         },
         {
+            "id": "Ize1BfSF3Z5NTYqfdo-i0g",
+            "alias": "el-pollo-loco-los-angeles-70",
+            "name": "El Pollo Loco",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/L_vELwIg6NWxGlGCXYvzIQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/el-pollo-loco-los-angeles-70?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 125,
+            "categories": [
+                {
+                    "alias": "hotdogs",
+                    "title": "Fast Food"
+                },
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "chickenshop",
+                    "title": "Chicken Shop"
+                }
+            ],
+            "rating": 2.2,
+            "coordinates": {
+                "latitude": 34.062033935054465,
+                "longitude": -118.31358264854114
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "price": "$",
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste 1a",
+                "address3": "",
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste 1a",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12133833351",
+            "display_phone": "(213) 383-3351",
+            "distance": 720.0270671587081,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": "http://www.elpolloloco.com/our-food/",
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
             "id": "6Jo3Jz2d1y5pobAKlv-H2g",
             "alias": "wings-street-los-angeles",
             "name": "Wings Street",
@@ -493,866 +550,6 @@
             }
         },
         {
-            "id": "Xpt3Gjzim96FJnBN5CUZSQ",
-            "alias": "welders-grilled-cheese-los-angeles-4",
-            "name": "Welders Grilled Cheese",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/welders-grilled-cheese-los-angeles-4?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "sandwiches",
-                    "title": "Sandwiches"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "",
-            "display_phone": "",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": "https://www.weldersgrilled.com/#menu",
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "P86ZpDyWPes7BoY1MWLxiw",
-            "alias": "office-supplies-los-angeles-3",
-            "name": "Office Supplies",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/office-supplies-los-angeles-3?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "newamerican",
-                    "title": "New American"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.06211357664309,
-                "longitude": -118.3135865
-            },
-            "transactions": [
-                "delivery"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134410293",
-            "display_phone": "(213) 441-0293",
-            "distance": 720.3350113380363,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "IMA66_ZLrJh6G9SxaM9sPg",
-            "alias": "stoned-hungry-los-angeles-3",
-            "name": "Stoned + Hungry",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/stoned-hungry-los-angeles-3?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "newamerican",
-                    "title": "New American"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134410794",
-            "display_phone": "(213) 441-0794",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "Wl1ZeV4AXA8SyR2AaMfD3A",
-            "alias": "fisher-and-sons-fish-and-chips-los-angeles-6",
-            "name": "Fisher and Sons Fish and Chips",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/fisher-and-sons-fish-and-chips-los-angeles-6?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "fishnchips",
-                    "title": "Fish & Chips"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "",
-            "display_phone": "",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "ovXt8MN_Pn4de_9l9nkwuA",
-            "alias": "la-greens-los-angeles-8",
-            "name": "LA Greens",
-            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IjaC-wCajW-vY285oHFMJQ/o.jpg",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/la-greens-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 2,
-            "categories": [
-                {
-                    "alias": "salad",
-                    "title": "Salad"
-                }
-            ],
-            "rating": 3.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134218650",
-            "display_phone": "(213) 421-8650",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "j6oW9xuiTBSqGZ6J4FxgIQ",
-            "alias": "morning-after-breakfast-los-angeles-7",
-            "name": "Morning After Breakfast",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/morning-after-breakfast-los-angeles-7?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "breakfast_brunch",
-                    "title": "Breakfast & Brunch"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+13238507070",
-            "display_phone": "(323) 850-7070",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "8tNRPdBMcABofDPbC7ODow",
-            "alias": "oscars-pancake-bar-los-angeles-7",
-            "name": "Oscar's Pancake Bar",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/oscars-pancake-bar-los-angeles-7?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "breakfast_brunch",
-                    "title": "Breakfast & Brunch"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+13238507070",
-            "display_phone": "(323) 850-7070",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "OjetOFn0MU3CU-NVxn8UOA",
-            "alias": "nacho-lords-los-angeles-8",
-            "name": "Nacho Lords",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/nacho-lords-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "tex-mex",
-                    "title": "Tex-Mex"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.06211524316021,
-                "longitude": -118.3135865
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134410820",
-            "display_phone": "(213) 441-0820",
-            "distance": 720.3500180099943,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "qwKbyzi6DcRXMr5Nj9Hcuw",
-            "alias": "sunset-beach-fish-and-chips-los-angeles-6",
-            "name": "Sunset Beach Fish & Chips",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/sunset-beach-fish-and-chips-los-angeles-6?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 1,
-            "categories": [
-                {
-                    "alias": "fishnchips",
-                    "title": "Fish & Chips"
-                }
-            ],
-            "rating": 5.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134411840",
-            "display_phone": "(213) 441-1840",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "_hNZAVJRYGHFOKYw0Nxzig",
-            "alias": "the-original-herbivore-los-angeles",
-            "name": "The Original Herbivore",
-            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/b-_-AJw7bmFPsU3ziC00kw/o.jpg",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/the-original-herbivore-los-angeles?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 224,
-            "categories": [
-                {
-                    "alias": "foodtrucks",
-                    "title": "Food Trucks"
-                },
-                {
-                    "alias": "vegan",
-                    "title": "Vegan"
-                },
-                {
-                    "alias": "sandwiches",
-                    "title": "Sandwiches"
-                }
-            ],
-            "rating": 4.5,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "price": "$$",
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B9",
-                "address3": "",
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B9",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12135683305",
-            "display_phone": "(213) 568-3305",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": 1744786800,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "4P4irXBGzbeISRCRnZl4Bw",
-            "alias": "its-a-wrap-los-angeles-8",
-            "name": "Its A Wrap",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/its-a-wrap-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "wraps",
-                    "title": "Wraps"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134410791",
-            "display_phone": "(213) 441-0791",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "snIeVGc6uf-4TFDIh1PYOw",
-            "alias": "the-pepperoni-pizza-los-angeles",
-            "name": "The Pepperoni Pizza",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/the-pepperoni-pizza-los-angeles?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "pizza",
-                    "title": "Pizza"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134410798",
-            "display_phone": "(213) 441-0798",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "hce8w2a5WjEGfs3yU-blDg",
-            "alias": "seaside-burritos-and-tacos-los-angeles-9",
-            "name": "Seaside Burritos and Tacos",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/seaside-burritos-and-tacos-los-angeles-9?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "mexican",
-                    "title": "Mexican"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134411690",
-            "display_phone": "(213) 441-1690",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "wlmHQkcCeg4tkkz4BkQHfg",
-            "alias": "barn-farm-breakfast-los-angeles-3",
-            "name": "Barn Farm Breakfast",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/barn-farm-breakfast-los-angeles-3?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "breakfast_brunch",
-                    "title": "Breakfast & Brunch"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "",
-            "display_phone": "",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "ioxoH-qs0hWm6dRuFRLIHA",
-            "alias": "the-codfather-los-angeles-6",
-            "name": "The Codfather",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/the-codfather-los-angeles-6?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "fishnchips",
-                    "title": "Fish & Chips"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134218460",
-            "display_phone": "(213) 421-8460",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "ZR7g0Zmip0AuPKa9PVsqgQ",
-            "alias": "chucks-chicken-and-waffles-los-angeles-8",
-            "name": "Chuck's Chicken & Waffles",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/chucks-chicken-and-waffles-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "chickenshop",
-                    "title": "Chicken Shop"
-                },
-                {
-                    "alias": "waffles",
-                    "title": "Waffles"
-                },
-                {
-                    "alias": "breakfast_brunch",
-                    "title": "Breakfast & Brunch"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "",
-            "display_phone": "",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "Dx-INlvEWXcpUCIFsdrQyg",
-            "alias": "hollywood-wraps-los-angeles-8",
-            "name": "Hollywood Wraps",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/hollywood-wraps-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "wraps",
-                    "title": "Wraps"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134218630",
-            "display_phone": "(213) 421-8630",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "zXUH2VVdChEgVy_HfW1xwA",
-            "alias": "vu-du-wings-los-angeles-9",
-            "name": "VU DU Wings",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/vu-du-wings-los-angeles-9?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "chicken_wings",
-                    "title": "Chicken Wings"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.06211246562931,
-                "longitude": -118.3135865
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12134412280",
-            "display_phone": "(213) 441-2280",
-            "distance": 720.3250331793884,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
             "id": "8I4DgsvpUrdttiyHssN7aQ",
             "alias": "no-joke-pbj-los-angeles-6",
             "name": "No Joke PBJ",
@@ -1376,8 +573,8 @@
                 "longitude": -118.313381
             },
             "transactions": [
-                "delivery",
-                "pickup"
+                "pickup",
+                "delivery"
             ],
             "location": {
                 "address1": "3959 Wilshire Blvd",
@@ -1395,100 +592,6 @@
             },
             "phone": "",
             "display_phone": "",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "w0Y_ZPVBgIcrsn0U4qTVGg",
-            "alias": "angel-wings-los-angeles-6",
-            "name": "Angel Wings",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/angel-wings-los-angeles-6?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "chicken_wings",
-                    "title": "Chicken Wings"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "",
-            "display_phone": "",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "HPqWl9gJXO4_7Cf_4vVc-A",
-            "alias": "nocturnal-eats-los-angeles-5",
-            "name": "Nocturnal Eats",
-            "image_url": "",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/nocturnal-eats-los-angeles-5?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "newamerican",
-                    "title": "New American"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste B11",
-                "address3": null,
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste B11",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+18443639210",
-            "display_phone": "(844) 363-9210",
             "distance": 720.2215336814263,
             "attributes": {
                 "business_temp_closed": null,
@@ -1525,8 +628,8 @@
                 "longitude": -118.313381
             },
             "transactions": [
-                "delivery",
-                "pickup"
+                "pickup",
+                "delivery"
             ],
             "location": {
                 "address1": "3959 Wilshire Blvd",
@@ -1544,6 +647,482 @@
             },
             "phone": "",
             "display_phone": "",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "BrmPWKBOREAx70wMfxagIw",
+            "alias": "woofers-hot-dogs-los-angeles-7",
+            "name": "Woofers Hot Dogs",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/woofers-hot-dogs-los-angeles-7?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 0,
+            "categories": [
+                {
+                    "alias": "hotdog",
+                    "title": "Hot Dogs"
+                }
+            ],
+            "rating": 0.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134412330",
+            "display_phone": "(213) 441-2330",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "OjetOFn0MU3CU-NVxn8UOA",
+            "alias": "nacho-lords-los-angeles-8",
+            "name": "Nacho Lords",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nacho-lords-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 0,
+            "categories": [
+                {
+                    "alias": "tex-mex",
+                    "title": "Tex-Mex"
+                }
+            ],
+            "rating": 0.0,
+            "coordinates": {
+                "latitude": 34.06211524316021,
+                "longitude": -118.3135865
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134410820",
+            "display_phone": "(213) 441-0820",
+            "distance": 720.3500180099943,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "hce8w2a5WjEGfs3yU-blDg",
+            "alias": "seaside-burritos-and-tacos-los-angeles-9",
+            "name": "Seaside Burritos and Tacos",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/seaside-burritos-and-tacos-los-angeles-9?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 0,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                }
+            ],
+            "rating": 0.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134411690",
+            "display_phone": "(213) 441-1690",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "3gac2XBrZCEcy08Pvlv-Zg",
+            "alias": "pride-and-pancakes-los-angeles-3",
+            "name": "Pride And Pancakes",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pride-and-pancakes-los-angeles-3?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 0,
+            "categories": [
+                {
+                    "alias": "breakfast_brunch",
+                    "title": "Breakfast & Brunch"
+                }
+            ],
+            "rating": 0.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134410792",
+            "display_phone": "(213) 441-0792",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "3rT6tF5RQDTujqw5u248Jw",
+            "alias": "soups-cute-los-angeles-3",
+            "name": "Soups Cute",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/soups-cute-los-angeles-3?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "soup",
+                    "title": "Soup"
+                }
+            ],
+            "rating": 1.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134410793",
+            "display_phone": "(213) 441-0793",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "IMA66_ZLrJh6G9SxaM9sPg",
+            "alias": "stoned-hungry-los-angeles-3",
+            "name": "Stoned + Hungry",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/stoned-hungry-los-angeles-3?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 0,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "New American"
+                }
+            ],
+            "rating": 0.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134410794",
+            "display_phone": "(213) 441-0794",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "gdt3KaVt_KM0Mgwi69iMfw",
+            "alias": "dasom-by-chef-kang-los-angeles",
+            "name": "Dasom By Chef Kang",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2C1QaOksmX7ENG9KEuUqVQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dasom-by-chef-kang-los-angeles?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 39,
+            "categories": [
+                {
+                    "alias": "korean",
+                    "title": "Korean"
+                },
+                {
+                    "alias": "comfortfood",
+                    "title": "Comfort Food"
+                },
+                {
+                    "alias": "soup",
+                    "title": "Soup"
+                }
+            ],
+            "rating": 4.7,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12139086092",
+            "display_phone": "(213) 908-6092",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "qwKbyzi6DcRXMr5Nj9Hcuw",
+            "alias": "sunset-beach-fish-and-chips-los-angeles-6",
+            "name": "Sunset Beach Fish & Chips",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sunset-beach-fish-and-chips-los-angeles-6?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "fishnchips",
+                    "title": "Fish & Chips"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134411840",
+            "display_phone": "(213) 441-1840",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "4P4irXBGzbeISRCRnZl4Bw",
+            "alias": "its-a-wrap-los-angeles-8",
+            "name": "Its A Wrap",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/its-a-wrap-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 0,
+            "categories": [
+                {
+                    "alias": "wraps",
+                    "title": "Wraps"
+                }
+            ],
+            "rating": 0.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134410791",
+            "display_phone": "(213) 441-0791",
+            "distance": 720.2215336814263,
+            "attributes": {
+                "business_temp_closed": null,
+                "menu_url": null,
+                "open24_hours": null,
+                "waitlist_reservation": null
+            }
+        },
+        {
+            "id": "ovXt8MN_Pn4de_9l9nkwuA",
+            "alias": "la-greens-los-angeles-8",
+            "name": "LA Greens",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IjaC-wCajW-vY285oHFMJQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/la-greens-los-angeles-8?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "salad",
+                    "title": "Salad"
+                }
+            ],
+            "rating": 3.0,
+            "coordinates": {
+                "latitude": 34.062128,
+                "longitude": -118.313381
+            },
+            "transactions": [
+                "pickup",
+                "delivery"
+            ],
+            "location": {
+                "address1": "3959 Wilshire Blvd",
+                "address2": "Ste B11",
+                "address3": null,
+                "city": "Los Angeles",
+                "zip_code": "90010",
+                "country": "US",
+                "state": "CA",
+                "display_address": [
+                    "3959 Wilshire Blvd",
+                    "Ste B11",
+                    "Los Angeles, CA 90010"
+                ]
+            },
+            "phone": "+12134218650",
+            "display_phone": "(213) 421-8650",
             "distance": 720.2215336814263,
             "attributes": {
                 "business_temp_closed": null,
@@ -1572,8 +1151,8 @@
                 "longitude": -118.313381
             },
             "transactions": [
-                "delivery",
-                "pickup"
+                "pickup",
+                "delivery"
             ],
             "location": {
                 "address1": "3959 Wilshire Blvd",
@@ -1600,64 +1179,17 @@
             }
         },
         {
-            "id": "kjztzXn33gUB2Svsowwe1A",
-            "alias": "wonjo-gukbap-los-angeles",
-            "name": "Wonjo GukBap",
-            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/TqgaNr6W7bWZrYv0_olZOw/o.jpg",
-            "is_closed": false,
-            "url": "https://www.yelp.com/biz/wonjo-gukbap-los-angeles?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
-            "review_count": 0,
-            "categories": [
-                {
-                    "alias": "korean",
-                    "title": "Korean"
-                }
-            ],
-            "rating": 0.0,
-            "coordinates": {
-                "latitude": 34.062128,
-                "longitude": -118.313381
-            },
-            "transactions": [
-                "delivery",
-                "pickup"
-            ],
-            "location": {
-                "address1": "3959 Wilshire Blvd",
-                "address2": "Ste 211",
-                "address3": "",
-                "city": "Los Angeles",
-                "zip_code": "90010",
-                "country": "US",
-                "state": "CA",
-                "display_address": [
-                    "3959 Wilshire Blvd",
-                    "Ste 211",
-                    "Los Angeles, CA 90010"
-                ]
-            },
-            "phone": "+12133780096",
-            "display_phone": "(213) 378-0096",
-            "distance": 720.2215336814263,
-            "attributes": {
-                "business_temp_closed": null,
-                "menu_url": null,
-                "open24_hours": null,
-                "waitlist_reservation": null
-            }
-        },
-        {
-            "id": "U1gQWByo_fhnkbnK_EiNYg",
-            "alias": "true-metal-burgers-los-angeles-3",
-            "name": "True Metal Burgers",
+            "id": "snIeVGc6uf-4TFDIh1PYOw",
+            "alias": "the-pepperoni-pizza-los-angeles",
+            "name": "The Pepperoni Pizza",
             "image_url": "",
             "is_closed": false,
-            "url": "https://www.yelp.com/biz/true-metal-burgers-los-angeles-3?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
+            "url": "https://www.yelp.com/biz/the-pepperoni-pizza-los-angeles?adjust_creative=AjPRM_8ozUzwegPwNRg-ng&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=AjPRM_8ozUzwegPwNRg-ng",
             "review_count": 0,
             "categories": [
                 {
-                    "alias": "burgers",
-                    "title": "Burgers"
+                    "alias": "pizza",
+                    "title": "Pizza"
                 }
             ],
             "rating": 0.0,
@@ -1666,8 +1198,8 @@
                 "longitude": -118.313381
             },
             "transactions": [
-                "delivery",
-                "pickup"
+                "pickup",
+                "delivery"
             ],
             "location": {
                 "address1": "3959 Wilshire Blvd",
@@ -1683,8 +1215,8 @@
                     "Los Angeles, CA 90010"
                 ]
             },
-            "phone": "+12134410802",
-            "display_phone": "(213) 441-0802",
+            "phone": "+12134410798",
+            "display_phone": "(213) 441-0798",
             "distance": 720.2215336814263,
             "attributes": {
                 "business_temp_closed": null,
