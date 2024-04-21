@@ -56,5 +56,5 @@ with YelpAPI(args.api_key) as yelp_api:
     # pprint(response)
     # print('\n-------------------------------------------------------------------------\n')
 
-    response = yelp_api.search_query(term='restaurants', location='los angeles, ca', sort_by='distance', limit=20)
+    response = yelp_api.search_query(term='restaurants', location='los angeles, ca', sort_by='distance', limit=35)
     save_response_to_json(response, 'recommendations.json')

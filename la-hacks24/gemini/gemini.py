@@ -54,4 +54,9 @@ file = open("recommendations.json", 'r')
 for line in file:
     message += line
 
+message += "According to the user, the following are the user's preferences for food. Based on this, recommend some restaurants"
+quiz = open("quiz_sample.txt", 'r')
+for line in quiz:
+    message += line
+
 send_message(message)
