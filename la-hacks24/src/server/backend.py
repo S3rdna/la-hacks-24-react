@@ -92,6 +92,7 @@ def manually_add_user(username, password):
     print("User added successfully")
     return True
 
+
 if __name__ == '__main__':
     init_db()  # Initialize the database and create table if not exists
     manually_add_user('newuser', 'password123')
