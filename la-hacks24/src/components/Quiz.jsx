@@ -63,7 +63,7 @@ function Quiz() {
         {
         questionNum === 1 &&
         <>
-        <ButtonAppBar />
+        <ButtonAppBar name="Dashboard" />
         {/* This is p */}
         <AITextField />
         <DiscreteSlider value={sliderValue} onChange={(event, sliderValue) => handleJSONchange("spiceLevel", sliderValue)} />

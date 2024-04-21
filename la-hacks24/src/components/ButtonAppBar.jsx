@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 
-export default function ButtonAppBar() {
+export default function ButtonAppBar({ name }) {
   return (
     <div className="stretch">
 
@@ -27,7 +27,7 @@ export default function ButtonAppBar() {
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
             
           </Typography>
-          <Button color="inherit">Dashboard</Button>
+          <Button color="inherit">{name}</Button>
         </Toolbar>
       </AppBar>
     </Box>
