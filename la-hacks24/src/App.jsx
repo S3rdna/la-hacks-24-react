@@ -3,6 +3,7 @@ import './App.css'
 
 import Game from './components/Game.jsx'
 import Quiz from './components/Quiz.jsx'
+import Login from './components/Login.js'
 
 function App() {
 
@@ -13,19 +14,10 @@ function App() {
 
     return (
 
-
-
-
         <>
-
             {state === 1 && <>
-                <h1>App</h1>
-                <div className="card">
-                    <button onClick={() => setState(2)}>Quiz
-                    </button>
-                    <button onClick={() => setState(3)}>Explore
-                    </button>
-                </div>
+
+                <Login />
             </>}
 
 
@@ -40,3 +32,12 @@ function App() {
 }
 
 export default App
+
+//                <h1>App</h1>
+//                <div className="card">
+//                    <button onClick={() => setState(2)}>Quiz
+//                    </button>
+//                    <button onClick={() => setState(3)}>Game
+//                    </button>
+//                </div>
+//            </>}
