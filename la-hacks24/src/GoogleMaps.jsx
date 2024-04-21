@@ -1,13 +1,20 @@
+
 import { useState } from 'react'
 import './App.css'
 
+function GoogleMaps() {
 
-function Quiz() {
+
   return (
     <>
-      <h2>Quiz</h2>
+    <h2>Google Ma-ps</h2>
+
+
+
+
+
     </>
   )
 }
 
-export default Quiz
+export default GoogleMaps
