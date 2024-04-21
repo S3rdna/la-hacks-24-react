@@ -16,11 +16,17 @@ const defaultCenter = {
     lng: 80.6337262, // default longitude
 };
 
+const currfake = {
+  lat: 34.0671424, 
+  lng: -118.4513456,
+};
+
 const minZoomLevel = 15; // Adjust the minimum zoom level as needed
 const maxZoomLevel = 30;
 
 // Array of restaurant names
-const restaurantNames = ["Gushi Korean", "Hangry Moon's", "Bella Pita UCLA", "Coffee by Default"];
+const restaurantNames = ["Gushi Korean", "Hangry Moon's", "Bella Pita UCLA", "Coffee by Default", "Pauley Pavilion"];
+const currfakeName = ["Pauley Pavilion"]
 
 const calcDistance = (lat1, lon1, lat2, lon2) => {
   const R = 6371; // Radius of the earth in km
@@ -66,6 +72,7 @@ function GoogleMaps() {
     const [userMarker, showUserMarker] = useState(false);
 
 
+
     
     const { isLoaded, loadError } = useLoadScript({
         googleMapsApiKey: 'AIzaSyAeG3P6Emr77_rBXL9A6mJuYkYHVbOCRXs',
@@ -98,12 +105,14 @@ function GoogleMaps() {
                     const { latitude, longitude } = position.coords;
                     setCurrentPosition({ lat: latitude, lng: longitude });
                     setLoading(false);
+                    console.log(currentPosition)
                 },
                 (error) => {
                     console.error('Error getting user location:', error);
                     setLoading(false);
                 }
             );
+            
         } else {
             console.error('Geolocation is not supported by this browser.');
             setLoading(false);
@@ -154,7 +163,7 @@ function GoogleMaps() {
                     >
 
                       
-                        {showUserMarker && <Marker 
+                        {<Marker 
                             position={currentPosition}
                             icon={{
                                 url: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png', // Change pin color here
