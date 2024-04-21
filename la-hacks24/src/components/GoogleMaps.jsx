@@ -20,7 +20,7 @@ const minZoomLevel = 15; // Adjust the minimum zoom level as needed
 const maxZoomLevel = 30;
 
 // Array of restaurant names
-const restaurantNames = ["Gushi Korean", "Hangry Moon's"];
+const restaurantNames = ["Gushi Korean", "Hangry Moon's", "Bella Pita UCLA", "Coffee by Default"];
 
 const calcDistance = (lat1, lon1, lat2, lon2) => {
   const R = 6371; // Radius of the earth in km

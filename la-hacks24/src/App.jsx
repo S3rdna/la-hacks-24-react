@@ -23,7 +23,7 @@ function App() {
                 <div className="card">
                     <button onClick={() => setState(2)}>Quiz
                     </button>
-                    <button onClick={() => setState(3)}>Game
+                    <button onClick={() => setState(3)}>Explore
                     </button>
                 </div>
             </>}
