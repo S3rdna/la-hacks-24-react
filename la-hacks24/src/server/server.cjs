@@ -17,7 +17,7 @@ app.post('/api/login', (req, res) => {
     console.log(username, password)
     // Here you would typically check the credentials against a database
     if (username === 'admin' && password === 'password') {
-        res.json({ success: true, message: 'Login successful!', values: (username, password) });
+        res.json({ success: true, message: 'Login successful!', values: { username, password } });
     } else {
         res.status(401).json({ success: false, message: 'Invalid credentials' });
     }
