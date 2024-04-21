@@ -23,6 +23,13 @@ app.post('/api/login', (req, res) => {
     }
 });
 
+app.post('/api/quizdata', (req, res) => {
+
+    console.log(req.body)
+    // Here you would typically check the credentials against a database
+    res.json({ success: true, message: 'successful!', values: req.body })
+})
+
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
