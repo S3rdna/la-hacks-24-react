@@ -3,23 +3,27 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Game from './Game.jsx'
+import Quiz from './Quiz.jsx'
+
 function App() {
-  const [count, setCount] = useState(0)
+  // 1 - home
+  // 2 - quiz
+  // 3 - game
+  const [state, setState] = useState(1) // react hook
+ 
+
 
   return (
+    
+
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+      
+      <h1>App</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setState(2)}>Game
+        </button>
+        <button onClick={() => setState(3)}>Quiz
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
@@ -28,6 +32,12 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+
+      {state === 2 && <Game />}
+      {state === 3 && <Quiz />}
+
+
     </>
   )
 }
