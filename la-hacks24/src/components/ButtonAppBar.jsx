@@ -13,7 +13,7 @@ export default function ButtonAppBar({ name }) {
 
       
     <Box style={{marginTop: 0}} className="stretch" sx={{ flexGrow: 1 }}>
-      <AppBar position="relative" sx={{backgroundColor: '#F38084'}}>
+      <AppBar position="relative" sx={{backgroundColor: '#F38084', opacity: 0.7}}>
         <Toolbar>
           <IconButton
             size="large"

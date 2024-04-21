@@ -3,6 +3,7 @@
   height: 100vh;
   /* background-color: red; */
   overflow: hidden; /* Prevent content from overflowing */
+  background-image: url("./assets/mountains.png");
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   align-items: center;
   height: 100vh; /* Let the body take up the full height of the viewport */
   margin: 0;
+  
 }
 
 .stretch {
