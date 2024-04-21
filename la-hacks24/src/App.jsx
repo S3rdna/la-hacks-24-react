@@ -3,7 +3,7 @@ import './App.css'
 
 import Game from './components/Game.jsx'
 import Quiz from './components/Quiz.jsx'
-import Login from './components/Login.js'
+import Login from './components/Login.jsx'
 
 function App() {
 
